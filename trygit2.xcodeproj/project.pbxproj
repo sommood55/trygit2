@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E96B6A9180BA6FD00EE4E63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E96B6A8180BA6FD00EE4E63 /* Foundation.framework */; };
+		4E96B6AB180BA6FD00EE4E63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E96B6AA180BA6FD00EE4E63 /* CoreGraphics.framework */; };
+		4E96B6AD180BA6FD00EE4E63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E96B6AC180BA6FD00EE4E63 /* UIKit.framework */; };
+		4E96B6B3180BA6FD00EE4E63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E96B6B1180BA6FD00EE4E63 /* InfoPlist.strings */; };
+		4E96B6B5180BA6FD00EE4E63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E96B6B4180BA6FD00EE4E63 /* main.m */; };
+		4E96B6B9180BA6FD00EE4E63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E96B6B8180BA6FD00EE4E63 /* AppDelegate.m */; };
+		4E96B6BC180BA6FD00EE4E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E96B6BA180BA6FD00EE4E63 /* Main.storyboard */; };
+		4E96B6BF180BA6FD00EE4E63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E96B6BE180BA6FD00EE4E63 /* ViewController.m */; };
+		4E96B6C1180BA6FD00EE4E63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E96B6C0180BA6FD00EE4E63 /* Images.xcassets */; };
+		4E96B6C8180BA6FE00EE4E63 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E96B6C7180BA6FE00EE4E63 /* XCTest.framework */; };
+		4E96B6C9180BA6FE00EE4E63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E96B6A8180BA6FD00EE4E63 /* Foundation.framework */; };
+		4E96B6CA180BA6FE00EE4E63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E96B6AC180BA6FD00EE4E63 /* UIKit.framework */; };
+		4E96B6D2180BA6FE00EE4E63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E96B6D0180BA6FE00EE4E63 /* InfoPlist.strings */; };
+		4E96B6D4180BA6FE00EE4E63 /* trygit2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E96B6D3180BA6FE00EE4E63 /* trygit2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E96B6CB180BA6FE00EE4E63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E96B69D180BA6FD00EE4E63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E96B6A4180BA6FD00EE4E63;
+			remoteInfo = trygit2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E96B6A5180BA6FD00EE4E63 /* trygit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trygit2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E96B6A8180BA6FD00EE4E63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E96B6AA180BA6FD00EE4E63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E96B6AC180BA6FD00EE4E63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E96B6B0180BA6FD00EE4E63 /* trygit2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "trygit2-Info.plist"; sourceTree = "<group>"; };
+		4E96B6B2180BA6FD00EE4E63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E96B6B4180BA6FD00EE4E63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E96B6B6180BA6FD00EE4E63 /* trygit2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "trygit2-Prefix.pch"; sourceTree = "<group>"; };
+		4E96B6B7180BA6FD00EE4E63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E96B6B8180BA6FD00EE4E63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E96B6BB180BA6FD00EE4E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E96B6BD180BA6FD00EE4E63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E96B6BE180BA6FD00EE4E63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E96B6C0180BA6FD00EE4E63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E96B6C6180BA6FE00EE4E63 /* trygit2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trygit2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E96B6C7180BA6FE00EE4E63 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4E96B6CF180BA6FE00EE4E63 /* trygit2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "trygit2Tests-Info.plist"; sourceTree = "<group>"; };
+		4E96B6D1180BA6FE00EE4E63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E96B6D3180BA6FE00EE4E63 /* trygit2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = trygit2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E96B6A2180BA6FD00EE4E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E96B6AB180BA6FD00EE4E63 /* CoreGraphics.framework in Frameworks */,
+				4E96B6AD180BA6FD00EE4E63 /* UIKit.framework in Frameworks */,
+				4E96B6A9180BA6FD00EE4E63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E96B6C3180BA6FE00EE4E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E96B6C8180BA6FE00EE4E63 /* XCTest.framework in Frameworks */,
+				4E96B6CA180BA6FE00EE4E63 /* UIKit.framework in Frameworks */,
+				4E96B6C9180BA6FE00EE4E63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E96B69C180BA6FD00EE4E63 = {
+			isa = PBXGroup;
+			children = (
+				4E96B6AE180BA6FD00EE4E63 /* trygit2 */,
+				4E96B6CD180BA6FE00EE4E63 /* trygit2Tests */,
+				4E96B6A7180BA6FD00EE4E63 /* Frameworks */,
+				4E96B6A6180BA6FD00EE4E63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E96B6A6180BA6FD00EE4E63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E96B6A5180BA6FD00EE4E63 /* trygit2.app */,
+				4E96B6C6180BA6FE00EE4E63 /* trygit2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E96B6A7180BA6FD00EE4E63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E96B6A8180BA6FD00EE4E63 /* Foundation.framework */,
+				4E96B6AA180BA6FD00EE4E63 /* CoreGraphics.framework */,
+				4E96B6AC180BA6FD00EE4E63 /* UIKit.framework */,
+				4E96B6C7180BA6FE00EE4E63 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E96B6AE180BA6FD00EE4E63 /* trygit2 */ = {
+			isa = PBXGroup;
+			children = (
+				4E96B6B7180BA6FD00EE4E63 /* AppDelegate.h */,
+				4E96B6B8180BA6FD00EE4E63 /* AppDelegate.m */,
+				4E96B6BA180BA6FD00EE4E63 /* Main.storyboard */,
+				4E96B6BD180BA6FD00EE4E63 /* ViewController.h */,
+				4E96B6BE180BA6FD00EE4E63 /* ViewController.m */,
+				4E96B6C0180BA6FD00EE4E63 /* Images.xcassets */,
+				4E96B6AF180BA6FD00EE4E63 /* Supporting Files */,
+			);
+			path = trygit2;
+			sourceTree = "<group>";
+		};
+		4E96B6AF180BA6FD00EE4E63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E96B6B0180BA6FD00EE4E63 /* trygit2-Info.plist */,
+				4E96B6B1180BA6FD00EE4E63 /* InfoPlist.strings */,
+				4E96B6B4180BA6FD00EE4E63 /* main.m */,
+				4E96B6B6180BA6FD00EE4E63 /* trygit2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E96B6CD180BA6FE00EE4E63 /* trygit2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E96B6D3180BA6FE00EE4E63 /* trygit2Tests.m */,
+				4E96B6CE180BA6FE00EE4E63 /* Supporting Files */,
+			);
+			path = trygit2Tests;
+			sourceTree = "<group>";
+		};
+		4E96B6CE180BA6FE00EE4E63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E96B6CF180BA6FE00EE4E63 /* trygit2Tests-Info.plist */,
+				4E96B6D0180BA6FE00EE4E63 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E96B6A4180BA6FD00EE4E63 /* trygit2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E96B6D7180BA6FE00EE4E63 /* Build configuration list for PBXNativeTarget "trygit2" */;
+			buildPhases = (
+				4E96B6A1180BA6FD00EE4E63 /* Sources */,
+				4E96B6A2180BA6FD00EE4E63 /* Frameworks */,
+				4E96B6A3180BA6FD00EE4E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trygit2;
+			productName = trygit2;
+			productReference = 4E96B6A5180BA6FD00EE4E63 /* trygit2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E96B6C5180BA6FE00EE4E63 /* trygit2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E96B6DA180BA6FE00EE4E63 /* Build configuration list for PBXNativeTarget "trygit2Tests" */;
+			buildPhases = (
+				4E96B6C2180BA6FE00EE4E63 /* Sources */,
+				4E96B6C3180BA6FE00EE4E63 /* Frameworks */,
+				4E96B6C4180BA6FE00EE4E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E96B6CC180BA6FE00EE4E63 /* PBXTargetDependency */,
+			);
+			name = trygit2Tests;
+			productName = trygit2Tests;
+			productReference = 4E96B6C6180BA6FE00EE4E63 /* trygit2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E96B69D180BA6FD00EE4E63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MUIC;
+				TargetAttributes = {
+					4E96B6C5180BA6FE00EE4E63 = {
+						TestTargetID = 4E96B6A4180BA6FD00EE4E63;
+					};
+				};
+			};
+			buildConfigurationList = 4E96B6A0180BA6FD00EE4E63 /* Build configuration list for PBXProject "trygit2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E96B69C180BA6FD00EE4E63;
+			productRefGroup = 4E96B6A6180BA6FD00EE4E63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E96B6A4180BA6FD00EE4E63 /* trygit2 */,
+				4E96B6C5180BA6FE00EE4E63 /* trygit2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E96B6A3180BA6FD00EE4E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E96B6C1180BA6FD00EE4E63 /* Images.xcassets in Resources */,
+				4E96B6B3180BA6FD00EE4E63 /* InfoPlist.strings in Resources */,
+				4E96B6BC180BA6FD00EE4E63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E96B6C4180BA6FE00EE4E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E96B6D2180BA6FE00EE4E63 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E96B6A1180BA6FD00EE4E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E96B6BF180BA6FD00EE4E63 /* ViewController.m in Sources */,
+				4E96B6B9180BA6FD00EE4E63 /* AppDelegate.m in Sources */,
+				4E96B6B5180BA6FD00EE4E63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E96B6C2180BA6FE00EE4E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E96B6D4180BA6FE00EE4E63 /* trygit2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E96B6CC180BA6FE00EE4E63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E96B6A4180BA6FD00EE4E63 /* trygit2 */;
+			targetProxy = 4E96B6CB180BA6FE00EE4E63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E96B6B1180BA6FD00EE4E63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E96B6B2180BA6FD00EE4E63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E96B6BA180BA6FD00EE4E63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E96B6BB180BA6FD00EE4E63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E96B6D0180BA6FE00EE4E63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E96B6D1180BA6FE00EE4E63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E96B6D5180BA6FE00EE4E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E96B6D6180BA6FE00EE4E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E96B6D8180BA6FE00EE4E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "trygit2/trygit2-Prefix.pch";
+				INFOPLIST_FILE = "trygit2/trygit2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E96B6D9180BA6FE00EE4E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "trygit2/trygit2-Prefix.pch";
+				INFOPLIST_FILE = "trygit2/trygit2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E96B6DB180BA6FE00EE4E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/trygit2.app/trygit2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "trygit2/trygit2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "trygit2Tests/trygit2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4E96B6DC180BA6FE00EE4E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/trygit2.app/trygit2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "trygit2/trygit2-Prefix.pch";
+				INFOPLIST_FILE = "trygit2Tests/trygit2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E96B6A0180BA6FD00EE4E63 /* Build configuration list for PBXProject "trygit2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E96B6D5180BA6FE00EE4E63 /* Debug */,
+				4E96B6D6180BA6FE00EE4E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E96B6D7180BA6FE00EE4E63 /* Build configuration list for PBXNativeTarget "trygit2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E96B6D8180BA6FE00EE4E63 /* Debug */,
+				4E96B6D9180BA6FE00EE4E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E96B6DA180BA6FE00EE4E63 /* Build configuration list for PBXNativeTarget "trygit2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E96B6DB180BA6FE00EE4E63 /* Debug */,
+				4E96B6DC180BA6FE00EE4E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E96B69D180BA6FD00EE4E63 /* Project object */;
+}

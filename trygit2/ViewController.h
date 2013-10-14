@@ -6,8 +6,6 @@
 //  Copyright (c) 2556 MUIC. All rights reserved.
 //
 
-// VC change 1
-
 // Test adding new feature .. it works !
 
 // Test local brach exp1

@@ -13,8 +13,6 @@
 
 // This is experiment 2
 
-// EXP 3
-
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
@@ -22,3 +20,4 @@
 @property (strong, nonatomic) UIWindow *window;
 
 @end
+// Just add this too.

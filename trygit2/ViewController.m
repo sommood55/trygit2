@@ -6,7 +6,7 @@
 //  Copyright (c) 2556 MUIC. All rights reserved.
 //
 
-// FUNC1 - AAA
+// FUNC1 - ABB
 #import "ViewController.h"
 
 @interface ViewController ()
